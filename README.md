@@ -1,6 +1,6 @@
-The file 'Human-to-mosquito.R' includes the within-human model used to simulate trajectories of parasitemia and male and female gametocytemia, PK–PD models for dihydroartemisinin (DHA), piperaquine (PPQ), and primaquine (PQ), and a transmission model to calculate an individual's infectiousness to mosquitoes.
+The file `Human-to-mosquito.R` includes the within-human model used to simulate trajectories of parasitemia and male and female gametocytemia, PK–PD models for dihydroartemisinin (DHA), piperaquine (PPQ), and primaquine (PQ), and a transmission model to calculate an individual's infectiousness to mosquitoes.
 
-The file 'MDA_ACT.R' contains a PK–PD model that simulates three rounds of mass drug administration (MDA) with DHA and piperaquine. This file must be sourced before running the MDA simulations.
+The file `MDA_ACT.R` contains a PK–PD model that simulates three rounds of mass drug administration (MDA) with DHA and piperaquine. This file must be sourced before running the MDA simulations.
 
 The file `Agent based transmission model.R` contains simulations of 100 MDA trajectories under two treatment regimens (ACT alone or ACT plus 0.25 mg/kg primaquine), as well as scenarios in which the routine treatment strategy switches from ACT alone to ACT plus 0.25 mg/kg primaquine.
 
